@@ -7,7 +7,7 @@ const MyTitleMessage = styled.h1`
   width: 100%;
   top: 22rem;
   z-index: 1;
-  margin-top: -125px;
+  margin-top: -165px;
   text-align: center;
   strong {
     font-size: 1.25em;
@@ -41,7 +41,7 @@ const TitleMessage = () => (
         <div className="sub">
           <Typewriter
             options={{
-              strings: ["2nd Year student(ECE) at Jamia Millia Islamia","Web Developer", "Competitive Programmer"],
+              strings: ["Web Developer", "Competitive Programmer"],
               autoStart: true,
               loop: true,
               delay: 50

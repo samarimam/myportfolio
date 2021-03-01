@@ -3,14 +3,14 @@
   }
   
   .nav-theme {
-    /* background-color: #101018f8; */
+    background-color: #101018f8;
     font-size: 14px;
     font-family:"Yusei Magic",sans-serif;
     color: aliceblue;
   }
   
   .animate-navbar {
-    /* box-shadow: 1px 1px 1px #222; */
+    box-shadow: 1px 1px 1px #222;
     animation: moveDown 0.5s ease-in-out;
   }
   

@@ -2,3 +2,9 @@
     height: 100vh;
     object-fit: cover;
   }
+
+  /* @media only screen and (max-width: 600px) {
+    .custom-img {
+      height: auto;
+    }
+  } */
