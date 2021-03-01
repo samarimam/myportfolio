@@ -107,7 +107,7 @@ export const skills = {
       imgAltText: "Express",
       imgSrc: L_EXPRESS,
       skillName: "Express",
-    },
+    }, 
     {
       link: "https://www.djangoproject.com/",
       imgAltText: "Django",

@@ -8,6 +8,7 @@ import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
+import TimeLine from "./components/projects-timeline/projects-timeline.component";
 import Skills from "./pages/skills/skills.component";
 
 const App = () => {
@@ -37,6 +38,12 @@ const App = () => {
         <Slide bottom duration={500}>
           <hr />
           <Skills />
+        </Slide>
+      </Container>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <TimeLine />
         </Slide>
       </Container>
     
