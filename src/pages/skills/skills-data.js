@@ -14,14 +14,14 @@ import L_DJANGO from "../../assets/img/skills/django.svg";
 import L_FLASK from "../../assets/img/skills/flask.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
-import L_MSSQL from "../../assets/img/skills/mssql.svg";
+import L_FIREBASE from "../../assets/img/skills/370873.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
-import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
+import L_NETLIFY from "../../assets/img/skills/netlify-seeklogo.com.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
-import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
-import L_GOLANG from "../../assets/img/skills/go-6.svg";
+import L_JAVA from "../../assets/img/skills/371206.svg";
+import L_C from "../../assets/img/skills/c.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
 
 export const skills = {
@@ -44,12 +44,12 @@ export const skills = {
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
     },
-    {
-      link: "https://sass-lang.com/",
-      imgAltText: "Sass",
-      imgSrc: L_SASS,
-      skillName: "Sass",
-    },
+    // {
+    //   link: "https://sass-lang.com/",
+    //   imgAltText: "Sass",
+    //   imgSrc: L_SASS,
+    //   skillName: "Sass",
+    // },
     {
       link: "https://getbootstrap.com/",
       imgAltText: "Bootstrap",
@@ -62,12 +62,12 @@ export const skills = {
       imgSrc: L_REACT,
       skillName: "React JS",
     },
-    {
-      link: "https://redux.js.org/",
-      imgAltText: "Redux",
-      imgSrc: L_REDUX,
-      skillName: "Redux",
-    },
+    // {
+    //   link: "https://redux.js.org/",
+    //   imgAltText: "Redux",
+    //   imgSrc: L_REDUX,
+    //   skillName: "Redux",
+    // },
     {
       link: "https://reacttraining.com/react-router/",
       imgAltText: "React Router",
@@ -108,18 +108,18 @@ export const skills = {
       imgSrc: L_EXPRESS,
       skillName: "Express",
     }, 
-    {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
-    },
-    {
-      link: "https://flask.palletsprojects.com/",
-      imgAltText: "Flask",
-      imgSrc: L_FLASK,
-      skillName: "Flask",
-    },
+    // {
+    //   link: "https://www.djangoproject.com/",
+    //   imgAltText: "Django",
+    //   imgSrc: L_DJANGO,
+    //   skillName: "Django",
+    // },
+    // {
+    //   link: "https://flask.palletsprojects.com/",
+    //   imgAltText: "Flask",
+    //   imgSrc: L_FLASK,
+    //   skillName: "Flask",
+    // },
     
   ],
   hostingPlatforms: [
@@ -130,10 +130,10 @@ export const skills = {
       skillName: "Heroku",
     },
     {
-      link: "https://www.digitalocean.com/",
-      imgAltText: "Digital Ocean",
-      imgSrc: L_DIGITAL_OCEAN,
-      skillName: "Digital Ocean",
+      link: "https://www.netlify.com/",
+      imgAltText: "Netlify",
+      imgSrc: L_NETLIFY,
+      skillName: "Netlify",
     },
     {
       link: "https://pages.github.com/",
@@ -150,10 +150,10 @@ export const skills = {
       skillName: "JavaScript",
     },
     {
-      link: "https://www.typescriptlang.org/",
-      imgAltText: "TypeScript",
-      imgSrc: L_TYPESCRIPT,
-      skillName: "TypeScript",
+      link: "https://en.wikipedia.org/wiki/C%2B%2B",
+      imgAltText: "C++",
+      imgSrc: L_C,
+      skillName: "C++",
     },
     {
       link: "https://www.python.org/",
@@ -162,24 +162,24 @@ export const skills = {
       skillName: "Python",
     },
     {
-      link: "https://golang.org/",
-      imgAltText: "Golang",
-      imgSrc: L_GOLANG,
-      skillName: "Golang",
+      link: "https://en.wikipedia.org/wiki/Java_(programming_language)",
+      imgAltText: "Java",
+      imgSrc: L_JAVA,
+      skillName: "Java",
     },
   ],
   databases: [
+    // {
+    //   link: "https://www.postgresql.org/",
+    //   imgAltText: "PostgreSQL",
+    //   imgSrc: L_POSTGRESQL,
+    //   skillName: "PostgreSQL",
+    // },
     {
-      link: "https://www.postgresql.org/",
-      imgAltText: "PostgreSQL",
-      imgSrc: L_POSTGRESQL,
-      skillName: "PostgreSQL",
-    },
-    {
-      link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-      imgAltText: "MS-SQL",
-      imgSrc: L_MSSQL,
-      skillName: "MS-SQL",
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
     },
     {
       link: "https://www.mongodb.com/",

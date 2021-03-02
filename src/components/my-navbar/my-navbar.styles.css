@@ -10,7 +10,7 @@
   }
   
   .animate-navbar {
-    box-shadow: 1px 1px 1px #222;
+    /* box-shadow: 1px 1px 1px #222; */
     animation: moveDown 0.5s ease-in-out;
   }
   
@@ -27,3 +27,7 @@
     color: rgba(255,255,255,.7);
     padding: 0px 18px;
   }
+  .nav-theme {
+    background-color: rgba(16,16,24,.89)!important;
+  }
+
