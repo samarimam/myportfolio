@@ -2,8 +2,9 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
+import L_Covid from "../../assets/img/projects/covid.PNG";
 import L_Keeper from "../../assets/img/projects/Keeper.PNG";
-import L_Instagram from "../../assets/img/projects/instagram.PNG";
+import L_Instagram from "../../assets/img/projects/insta.PNG";
 import L_TSF from "../../assets/img/projects/tsf.PNG";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -164,7 +165,7 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This app has user suthentication with fiebase.You can make posts and share with your friends.
+                        <strong>Description:</strong> This app has user authentication with fiebase.You can make posts and share with your friends.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -347,6 +348,127 @@ const TimeLine = () => {
               </div>
             </div>
           </ImageEvent>
+
+          {/* {project covid tracker} */}
+          <ImageEvent
+            date="30/03/2021"
+            className="text-center"
+            text="Covid Tracker"
+            src={L_Covid}
+            alt="covid tracker"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong>Keep track on covid-19 cases all over the world.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>API from disease.sh</li>
+                          <li>Graph for covid cases in last 120 days</li>
+                          <li>Can be installed in Android phones using Progressive web apps </li>
+                          <li>Can track covid cases in every country</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                        <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_NODE_JS}
+                                alt="Node.js"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Node.js
+                            </span>
+                          </li>
+                          {/* <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_EXPRESS}
+                                alt="Express"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Express
+                            </span>
+                          </li> */}
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_FIREBASE}
+                                alt="Firebase"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Firebase
+                            </span>
+                          </li>
+                          {/* <li>
+                          {/* <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MATERIALUI}
+                                alt="Material-UI"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Material-UI
+                            </span>
+                          </li> */}
+                          
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://covid-tracker-586d8.web.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/samarimam/covidtracker"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+                {/* <UrlButton
+                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-materialui-fun-activity-6716765686963826688-GIpZ"
+                  target="_blank"
+                >
+                  WATCH VIDEO
+                </UrlButton> */}
+              </div>
+            </div>
+          </ImageEvent>
+
         </Events>
       </Timeline>
     </div>
