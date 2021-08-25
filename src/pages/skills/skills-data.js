@@ -13,7 +13,7 @@ import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_DJANGO from "../../assets/img/skills/django.svg";
 import L_FLASK from "../../assets/img/skills/flask.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
-import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
+import L_TAILWIND from "../../assets/img/skills/tailwindcss.svg";
 import L_FIREBASE from "../../assets/img/skills/370873.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
@@ -23,6 +23,7 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_JAVA from "../../assets/img/skills/371206.svg";
 import L_C from "../../assets/img/skills/c.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 
 export const skills = {
   frontend: [
@@ -62,12 +63,12 @@ export const skills = {
       imgSrc: L_REACT,
       skillName: "React JS",
     },
-    // {
-    //   link: "https://redux.js.org/",
-    //   imgAltText: "Redux",
-    //   imgSrc: L_REDUX,
-    //   skillName: "Redux",
-    // },
+    {
+      link: "https://www.typescriptlang.org/",
+      imgAltText: "TypeScript",
+      imgSrc: L_TYPESCRIPT,
+      skillName: "TypeScript",
+    },
     {
       link: "https://reacttraining.com/react-router/",
       imgAltText: "React Router",
@@ -91,6 +92,12 @@ export const skills = {
       imgAltText: "styled-components",
       imgSrc: L_STYLED_COMPONENTS,
       skillName: "styled-components",
+    },
+    {
+      link: "https://tailwindcss.com/",
+      imgAltText: "tailwindcss",
+      imgSrc: L_TAILWIND,
+      skillName: "tailwindcss",
     },
     
   ],

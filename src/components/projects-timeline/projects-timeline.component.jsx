@@ -3,7 +3,7 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
 import L_Covid from "../../assets/img/projects/covid.PNG";
-import L_Keeper from "../../assets/img/projects/Keeper.PNG";
+import L_Keeper from "../../assets/img/projects/merntodo.PNG";
 import L_Instagram from "../../assets/img/projects/insta.PNG";
 import L_TSF from "../../assets/img/projects/tsf.PNG";
 import Accordion from "react-bootstrap/Accordion";
@@ -15,7 +15,7 @@ import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_FIREBASE from "../../assets/img/skills/370873.svg";
 // import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
-// import L_MONGODB from "../../assets/img/skills/mongodb.svg";
+import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import Image from "react-bootstrap/Image";
 import L_REDUX from "../../assets/img/skills/redux.svg";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
@@ -37,11 +37,11 @@ const TimeLine = () => {
         <Events>
         {/* Project: Todo List With MUI */}
         <ImageEvent
-            date="22/10/2020"
+            date="22/08/2021"
             className="text-center"
-            text="Keeper App"
+            text="Mern Todolist"
             src={L_Keeper}
-            alt="Google Keep Clone"
+            alt="Todolist"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -57,13 +57,13 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a keeper app helps you to make a note of your work.
+                        <strong>Description:</strong> This is a fully authenticated todolist with realtime database where users information and notes are encrypted and stored.It is built using MERN stack.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Keeps track of your Notes</li>
-                          <li>Powered by React</li>
-                          <li>Respoisive Design</li>
+                          <li>User information is stored in MongoDb datbase</li>
+                          <li>Authenticated with Node and Express</li>
+                          <li>Jwt is used to identify users</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -71,23 +71,23 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
+                                src={L_MONGODB}
+                                alt="MongoDB"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              HTML5
+                              MongoDB
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
+                                src={L_EXPRESS}
+                                alt="Express"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              CSS3
+                              Express
                             </span>
                           </li>
                           <li>
@@ -101,17 +101,17 @@ const TimeLine = () => {
                               React
                             </span>
                           </li>
-                          {/* <li>
+                          <li>
                             <span className="p-2">
                               <Image
-                                src={L_MATERIALUI}
-                                alt="Material-UI"
+                                src={L_NODE_JS}
+                                alt="Node"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Material-UI
+                             Node
                             </span>
-                          </li> */}
+                          </li>
                           
                         </ul>
                       </Card.Body>
@@ -121,23 +121,23 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://24xnk.csb.app/"
+                  href="https://mymerntodolist.netlify.app"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://codesandbox.io/s/github/samarimam/Google-Keep-Clone"
+                  href="https://github.com/samarimam/todo-client"
                   target="_blank"
                 >
-                  SOURCE CODE
+                  SOURCE CODE Frontend
                 </UrlButton>
-                {/* <UrlButton
-                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-materialui-fun-activity-6716765686963826688-GIpZ"
+                <UrlButton
+                  href="https://github.com/samarimam/todo-backend"
                   target="_blank"
                 >
-                  WATCH VIDEO
-                </UrlButton> */}
+                  SOURCE CODE Backend
+                </UrlButton>
               </div>
             </div>
           </ImageEvent>
@@ -165,7 +165,7 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This app has user authentication with fiebase.You can make posts and share with your friends.
+                        <strong>Description:</strong> This app has user authentication with fiebase.You can make posts and share pictures with your friends.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
