@@ -13,22 +13,34 @@ const ContactForm = () => {
         <Row>
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
-              <a href="mailto:samarimam78@gmail.com" target="_blank" rel="noopener noreferrer">
+              <a
+                href="mailto:samarimam78@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button variant="outline-danger" title="akjha96@gmail.com">
-                  <i className="fas fa-envelope-square"></i> Email Me
+                  <i className="fas fa-envelope-square"></i> Email
                 </Button>
               </a>
             </div>
             <div className="m-2">
-              <a href="https://www.linkedin.com/in/samar-imam-7922211b7/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/samar-imam-7922211b7/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button variant="outline-primary" title="Visit my LinkenIn">
                   <i className="fab fa-linkedin"></i> LinkedIn
                 </Button>
               </a>
             </div>
-            
+
             <div className="m-2">
-              <a href="https://github.com/samarimam" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/samarimam"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button variant="outline-dark" title="My other projects">
                   <i className="fab fa-github-square"></i> GitHub
                 </Button>
@@ -41,7 +53,7 @@ const ContactForm = () => {
                 </Button>
               </a>
             </div> */}
-            <div className="m-2">
+            {/* <div className="m-2">
               <a href="https://www.facebook.com/samar.imam.1401" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-primary" title="Say hello on FB">
                   <i className="fab fa-facebook-square"></i> FaceBook
@@ -54,7 +66,7 @@ const ContactForm = () => {
                   <i className="fab fa-twitter"></i> Instagram
                 </Button>
               </a>
-            </div>
+            </div> */}
           </Col>
         </Row>
       </Jumbotron>

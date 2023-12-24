@@ -24,6 +24,7 @@ import L_JAVA from "../../assets/img/skills/371206.svg";
 import L_C from "../../assets/img/skills/c.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
+import L_SQL from "../../assets/img/skills/mysql.svg";
 
 export const skills = {
   frontend: [
@@ -99,7 +100,6 @@ export const skills = {
       imgSrc: L_TAILWIND,
       skillName: "tailwindcss",
     },
-    
   ],
 
   backend: [
@@ -114,7 +114,7 @@ export const skills = {
       imgAltText: "Express",
       imgSrc: L_EXPRESS,
       skillName: "Express",
-    }, 
+    },
     // {
     //   link: "https://www.djangoproject.com/",
     //   imgAltText: "Django",
@@ -127,7 +127,6 @@ export const skills = {
     //   imgSrc: L_FLASK,
     //   skillName: "Flask",
     // },
-    
   ],
   hostingPlatforms: [
     {
@@ -176,12 +175,12 @@ export const skills = {
     },
   ],
   databases: [
-    // {
-    //   link: "https://www.postgresql.org/",
-    //   imgAltText: "PostgreSQL",
-    //   imgSrc: L_POSTGRESQL,
-    //   skillName: "PostgreSQL",
-    // },
+    {
+      link: "https://www.mysql.com/",
+      imgAltText: "My SQL",
+      imgSrc: L_SQL,
+      skillName: "My SQL",
+    },
     {
       link: "https://firebase.google.com/",
       imgAltText: "Firebase",

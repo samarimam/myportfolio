@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.styles.css";
-import Profile from "../../assets/img/profile/profile.jpg";
+import Profile from "../../assets/img/profile/uprofile.jpeg";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 
@@ -16,17 +16,30 @@ const About = () => {
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={6}>
               <Row className="justify-content-center mb-2 mr-2 ">
-                <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid />
+                <Image
+                  className="profile justify-content-end"
+                  alt="profile"
+                  src={Profile}
+                  thumbnail
+                  fluid
+                />
               </Row>
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Samar Imam</strong>
-                <br />A passionate programmer born and brought up in India. I am a Full Stack Web Developer with React.js, Express.js, Node.js as my tech stack.
+                Hi there! I am <strong>&nbsp;Samar Imam,</strong>
+                A passionate programmer born and brought up in India.
                 <br />
-                I am a 2nd year Btech student in Electronics and communication branch, Jamia Millia Islamia. 
-                <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable projects.
-                <br /> <br />
+                I am a seasoned software developer with over one year of
+                hands-on experience in the field. I have a genuine passion for
+                learning and always enjoy diving into new technologies.
+                <br />I thrive on staying updated with the latest industry
+                trends, making continuous learning a key part of my professional
+                ethos.
+                <br /> Eager to contribute my skills and enthusiasm to any
+                project, I'm excited about the future and the opportunities for
+                growth in the dynamic world of software development.
+                {/* <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
@@ -55,8 +68,8 @@ const About = () => {
                         LinkedIn
                       </Button>
                     </a>
-                  </div>
-                </Col>
+                  </div> */}
+                {/* </Col> */}
               </Row>
             </Col>
           </Row>
